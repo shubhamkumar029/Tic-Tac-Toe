@@ -53,10 +53,11 @@ function checkTie() {
 }
 
 function endGame(message) {
+  var a = true;
   gameActive = false;
   messageElement.textContent = message;
   resetButton.textContent = "Replay";
-
+  
 }
 
 function reset() {
@@ -64,6 +65,7 @@ function reset() {
   gameBoard = ['', '', '', '', '', '', '', '', ''];
   gameActive = true;
   messageElement.textContent = 'Tap on any box to start the game';
+  resetButton.textContent = 'Reset';
 
   cells.forEach(cell => {
     cell.textContent = '';
