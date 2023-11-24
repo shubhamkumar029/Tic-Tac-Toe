@@ -12,7 +12,7 @@ function makeMove(cellIndex) {
     cells[cellIndex].textContent = currentPlayer;
 
     if (checkWin()) {
-      endGame(`${currentPlayer} wins!`);
+      endGame(`${currentPlayer} wins!🎉`);
     } else if (checkTie()) {
       endGame("It's a tie!");
     } else {
