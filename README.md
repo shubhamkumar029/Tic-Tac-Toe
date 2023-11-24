@@ -2,22 +2,9 @@
 
 A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Game Rules](#game-rules)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This project is a basic implementation of the classic Tic Tac Toe game. It features a clean and responsive interface, allowing users to play the game in their web browsers. The game logic is implemented in JavaScript, providing a dynamic and interactive experience.
-
-## Installation
-
-No installation is required to play the game. Simply open the `index.html` file in a web browser, and you're ready to go!
 
 ## Usage
 
@@ -36,10 +23,6 @@ No installation is required to play the game. Simply open the `index.html` file 
 ## Contributing
 
 Feel free to contribute to the project by opening issues or pull requests. Your feedback and suggestions are highly appreciated.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
